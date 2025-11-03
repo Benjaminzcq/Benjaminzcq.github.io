@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI产品经理Benjamin的个人作品集，展示AI产品设计项目、行业见解和专业经验">
+    <meta name="keywords" content="AI产品经理,人工智能,产品设计,作品集,Benjamin">
+    <meta name="author" content="Benjamin">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Benjamin - AI产品经理作品集">
+    <meta property="og:description" content="专注AI产品设计与创新，打造有温度的智能产品">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://benjaminzcq.github.io/">
+    
+    <title>Benjamin - AI产品经理作品集</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar" role="navigation" aria-label="主导航">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="返回首页">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Benjamin</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="切换导航菜单" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu" role="menubar">
+                <li role="none"><a href="#hero" role="menuitem" class="nav-link">首页</a></li>
+                <li role="none"><a href="#about" role="menuitem" class="nav-link">关于</a></li>
+                <li role="none"><a href="#portfolio" role="menuitem" class="nav-link">作品集</a></li>
+                <li role="none"><a href="#articles" role="menuitem" class="nav-link">文章</a></li>
+                <li role="none"><a href="#contact" role="menuitem" class="nav-link">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" role="banner">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="avatar-wrapper" data-aos="fade-up">
+                <div class="avatar-glow"></div>
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Benjamin" 
+                     alt="Benjamin的头像" 
+                     class="avatar"
+                     loading="lazy">
+            </div>
+            
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                你好，我是 <span class="gradient-text">Benjamin</span>
+            </h1>
+            
+            <div class="hero-tags" data-aos="fade-up" data-aos-delay="200">
+                <span class="tag">AI产品经理</span>
+                <span class="tag">AI算法工程师</span>
+                <span class="tag">医疗AI专家</span>
+            </div>
+            
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                2年+医疗AI产品经验 | 企业级AI知识库项目负责人<br>
+                精通RAG架构 · 深度学习 · 产品0到1落地 · ROI 200%
+            </p>
+            
+            <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="#portfolio" class="btn btn-primary">查看作品</a>
+                <a href="#contact" class="btn btn-secondary">联系我</a>
+            </div>
+            
+            <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="500">
+                <span class="scroll-text">向下滚动</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section" role="region" aria-label="关于我">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">01</span>
+                关于我
+            </h2>
+            
+            <div class="about-grid">
+                <div class="about-content" data-aos="fade-right">
+                    <h3 class="about-subtitle">个人简介</h3>
+                    <p class="about-text">
+                        毕业于985高校电子信息专业(AI医疗影像方向),拥有2年+头部医疗设备公司工作经验,
+                        同时担任<strong>AI算法工程师</strong>和<strong>AI产品经理</strong>双重角色。
+                    </p>
+                    <p class="about-text">
+                        主导<strong>企业级AI知识库</strong>从0到1落地,协调算法、临床、产品等多团队,
+                        将文档查询时间从10分钟降至1分钟(效率提升90%),年节省人力成本约150万元,<strong>ROI 200%</strong>。
+                        日活覆盖率60%,用户满意度4.2/5。
+                    </p>
+                    
+                    <h3 class="about-subtitle" style="margin-top: 2rem;">教育背景</h3>
+                    <div class="education-item">
+                        <p class="about-text">
+                            <strong>🎓 985高校</strong> | 工学硕士 | 电子信息专业(AI医疗影像方向) | GPA 3.51/4.00<br>
+                            <strong>🎓 本科院校</strong> | 工学学士 | 电子信息科学与技术 | GPA 3.44/4.00
+                        </p>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">年AI经验</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">200%</div>
+                            <div class="stat-label">项目ROI</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">服务员工</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-wrapper" data-aos="fade-left">
+                    <h3 class="skills-title">核心技能</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">🤖</div>
+                            <h4>AI产品能力</h4>
+                            <p>LLM能力边界 · RAG架构 · Agent设计 · Prompt工程</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎯</div>
+                            <h4>产品管理</h4>
+                            <p>需求分析 · PRD撰写 · 跨部门协作 · 项目管控</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">📊</div>
+                            <h4>数据驱动</h4>
+                            <p>评测体系设计 · A/B测试 · 效果优化 · 数据闭环</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💻</div>
+                            <h4>技术能力</h4>
+                            <p>Python/C++ · 深度学习 · 医学影像算法 · Dify/Coze</p>
+                        </div>
+                    </div>
+                    
+                    <h3 class="skills-title" style="margin-top: 2rem;">专业优势</h3>
+                    <ul class="advantages-list">
+                        <li>✅ <strong>行业经验:</strong> 头部医疗设备公司2年+,深度了解医疗行业用户需求</li>
+                        <li>✅ <strong>项目经历:</strong> 主导企业级AI知识库从0到1落地,ROI 200%</li>
+                        <li>✅ <strong>产品思维:</strong> 全局性产品逻辑,快速挖掘及总结用户需求</li>
+                        <li>✅ <strong>技术深度:</strong> 理解主流LLM能力边界,AI评测体系设计与优化</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section" role="region" aria-label="作品集">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">02</span>
+                代表作品
+            </h2>
+            
+            <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="ai-app">AI应用</button>
+                <button class="filter-btn" data-filter="saas">SaaS产品</button>
+                <button class="filter-btn" data-filter="tool">工具平台</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-category="ai-app" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=600&fit=crop" 
+                             alt="企业级智能知识库系统" 
+                             loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="查看企业级智能知识库详情">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">知识库</span>
+                            <span class="project-tag">LLM</span>
+                        </div>
+                        <h3 class="project-title">企业级智能知识库系统 🏆</h3>
+                        <p class="project-description">
+                            从0到1主导首个AI应用落地,解决200+员工知识管理痛点,基于Dify+Qwen3-30B+BGE-M3,建立完整评测驱动优化流程
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">90%</span>
+                                <span class="metric-label">效率提升</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">200%</span>
+                                <span class="metric-label">ROI</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">4.2/5</span>
+                                <span class="metric-label">用户满意度</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-category="ai-app" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop" 
+                             alt="智能客服系统" 
+                             loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="查看智能客服系统详情">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">对话AI</span>
+                            <span class="project-tag">客服</span>
+                        </div>
+                        <h3 class="project-title">企业智能客服系统</h3>
+                        <p class="project-description">
+                            复用知识库架构,快速落地智能客服,支持多轮对话与意图识别,提升客户服务效率
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">60%</span>
+                                <span class="metric-label">自动解决率</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">2.3s</span>
+                                <span class="metric-label">响应时间</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-category="ai-app" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop" 
+                             alt="医学影像AI算法" 
+                             loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="查看医学影像AI算法详情">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">医学影像</span>
+                            <span class="project-tag">深度学习</span>
+                        </div>
+                        <h3 class="project-title">医学影像AI算法研究</h3>
+                        <p class="project-description">
+                            核医学SPECT/CT影像AI辅助诊断算法,应用于全国数十家三甲医院的肿瘤、心血管疾病诊断
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">30+</span>
+                                <span class="metric-label">合作医院</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">临床</span>
+                                <span class="metric-label">已落地应用</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" data-category="tool" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop" 
+                             alt="技术文档助手" 
+                             loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="查看技术文档助手详情">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">文档助手</span>
+                            <span class="project-tag">AI工具</span>
+                        </div>
+                        <h3 class="project-title">技术文档智能助手</h3>
+                        <p class="project-description">
+                            基于知识库架构的文档智能问答系统,帮助工程师快速获取技术文档信息
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">85%</span>
+                                <span class="metric-label">准确率</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">50+</span>
+                                <span class="metric-label">日活用户</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card" data-category="tool" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" 
+                             alt="AI评测体系" 
+                             loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="查看AI评测体系详情">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">评测体系</span>
+                            <span class="project-tag">质量管理</span>
+                        </div>
+                        <h3 class="project-title">AI产品评测体系设计</h3>
+                        <p class="project-description">
+                            建立50-100问评测集,分步评测精准定位问题,通过3次迭代将准确率从70%提升至85%
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">70→85%</span>
+                                <span class="metric-label">准确率提升</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">3轮</span>
+                                <span class="metric-label">迭代优化</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card" data-category="tool" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop" 
+                             alt="数据闭环机制" 
+                             loading="lazy">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" aria-label="查看数据闭环机制详情">查看详情</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">数据闭环</span>
+                            <span class="project-tag">产品优化</span>
+                        </div>
+                        <h3 class="project-title">AI产品数据闭环机制</h3>
+                        <p class="project-description">
+                            建立用户反馈收集-问题分析-效果评测-迭代优化的完整数据闭环,驱动产品持续改进
+                        </p>
+                        <div class="project-metrics">
+                            <div class="metric">
+                                <span class="metric-value">完整</span>
+                                <span class="metric-label">闭环流程</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">持续</span>
+                                <span class="metric-label">迭代优化</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="articles section" role="region" aria-label="文章分享">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="section-number">03</span>
+                文章分享
+            </h2>
+            
+            <div class="article-filters" data-aos="fade-up" data-aos-delay="100">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="product">产品思考</button>
+                <button class="filter-btn" data-filter="ai">AI趋势</button>
+                <button class="filter-btn" data-filter="ux">用户体验</button>
+            </div>
+            
+            <div class="articles-grid">
+                <!-- Article 1 -->
+                <article class="article-card" data-category="product" data-aos="fade-up" data-aos-delay="200">
+                    <div class="article-meta">
+                        <span class="article-date">2024年10月</span>
+                        <span class="article-category">产品思考</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">企业级AI知识库从0到1落地实践</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        分享主导企业级AI知识库项目的完整经验,包括用户调研、MVP验证、评测体系建设、数据闭环机制等核心方法论...
+                    </p>
+                    <div class="article-footer">
+                        <span class="read-time">10分钟阅读</span>
+                        <a href="#" class="read-more" aria-label="阅读完整文章">阅读全文 →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="article-card" data-category="ai" data-aos="fade-up" data-aos-delay="300">
+                    <div class="article-meta">
+                        <span class="article-date">2024年9月</span>
+                        <span class="article-category">AI技术</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">RAG架构实践:从原理到落地优化</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        深入解析RAG(检索增强生成)架构设计,分享Qwen3-30B+BGE-M3+Reranker的最佳实践与调优经验...
+                    </p>
+                    <div class="article-footer">
+                        <span class="read-time">12分钟阅读</span>
+                        <a href="#" class="read-more" aria-label="阅读完整文章">阅读全文 →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="article-card" data-category="product" data-aos="fade-up" data-aos-delay="400">
+                    <div class="article-meta">
+                        <span class="article-date">2024年8月</span>
+                        <span class="article-category">产品思考</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">AI产品评测体系设计与效果优化</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        如何建立科学的AI产品评测体系?分享50-100问评测集设计、分步评测方法、迭代优化策略...
+                    </p>
+                    <div class="article-footer">
+                        <span class="read-time">8分钟阅读</span>
+                        <a href="#" class="read-more" aria-label="阅读完整文章">阅读全文 →</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="article-card" data-category="ai" data-aos="fade-up" data-aos-delay="500">
+                    <div class="article-meta">
+                        <span class="article-date">2024年7月</span>
+                        <span class="article-category">AI技术</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">医学影像AI算法在临床场景的落地实践</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        从SPECT/CT影像AI辅助诊断算法的研发到30+三甲医院的临床应用,分享医疗AI产品化全流程...
+                    </p>
+                    <div class="article-footer">
+                        <span class="read-time">15分钟阅读</span>
+                        <a href="#" class="read-more" aria-label="阅读完整文章">阅读全文 →</a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="article-card" data-category="product" data-aos="fade-up" data-aos-delay="600">
+                    <div class="article-meta">
+                        <span class="article-date">2024年6月</span>
+                        <span class="article-category">产品思考</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">AI产品经理的技术深度:LLM能力边界与应用场景</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        深入理解主流大语言模型的能力边界,掌握不同场景下的LLM选型与应用策略,提升产品设计的准确性...
+                    </p>
+                    <div class="article-footer">
+                        <span class="read-time">10分钟阅读</span>
+                        <a href="#" class="read-more" aria-label="阅读完整文章">阅读全文 →</a>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="article-card" data-category="product" data-aos="fade-up" data-aos-delay="700">
+                    <div class="article-meta">
+                        <span class="article-date">2024年5月</span>
+                        <span class="article-category">产品思考</span>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="#">Dify vs Coze:低代码AI平台的选型与实践</a>
+                    </h3>
+                    <p class="article-excerpt">
+                        对比主流低代码AI平台的优劣势,分享在企业级项目中的选型经验与最佳实践...
+                    </p>
+                    <div class="article-footer">
+                        <span class="read-time">8分钟阅读</span>
+                        <a href="#" class="read-more" aria-label="阅读完整文章">阅读全文 →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section" role="region" aria-label="联系方式">
+        <div class="container">
+            <div class="contact-content" data-aos="fade-up">
+                <h2 class="section-title">
+                    <span class="section-number">04</span>
+                    让我们一起创造
+                </h2>
+                
+                <p class="contact-description">
+                    如果你对AI产品有独特的想法，或者正在寻找一位靠谱的产品经理<br>
+                    欢迎随时与我联系，期待与你的交流
+                </p>
+                
+                <div class="contact-methods">
+                    <a href="mailto:your.email@example.com" class="contact-btn" aria-label="发送邮件">
+                        <span class="contact-icon">📧</span>
+                        <span class="contact-text">your.email@example.com</span>
+                    </a>
+                    
+                    <a href="https://github.com/benjaminzcq" target="_blank" rel="noopener noreferrer" class="contact-btn" aria-label="访问GitHub主页">
+                        <span class="contact-icon">🐙</span>
+                        <span class="contact-text">GitHub</span>
+                    </a>
+                    
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-btn" aria-label="访问LinkedIn主页">
+                        <span class="contact-icon">💼</span>
+                        <span class="contact-text">LinkedIn</span>
+                    </a>
+                    
+                    <a href="#" class="contact-btn" aria-label="添加微信">
+                        <span class="contact-icon">💬</span>
+                        <span class="contact-text">WeChat</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    © 2024 Benjamin. 用技术与温度打造AI产品
+                </p>
+                <div class="footer-links">
+                    <a href="#hero" class="footer-link">返回顶部 ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
+
